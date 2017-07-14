@@ -1,6 +1,8 @@
 """
 Challenge details: https://www.hackerrank.com/challenges/grading
-Process the following list of grades and round-up according to challenge rules
+
+Process the following list of grades and round-up according to challenge rules,
+see details of challenge by visitng link above.
 
 Input:
 4
