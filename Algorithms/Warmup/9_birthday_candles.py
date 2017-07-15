@@ -26,8 +26,15 @@ Print the number of candles Colleen blows out on a new line.
 """
 
 def birthdayCakeCandles(n, ar):
-    # Complete this function
-
+    
+    # Get the max_number in ar list 
+    max_height = max(ar) 
+    # Max_list = if ar[i] == max_height for i in range(n) 
+    # Makes a list of T/F [ True, False, False, True]
+    max_list = [ar[i] == max_height for i in range(n)]
+    # Matching = sum ([1,0,0,1])
+    matching = sum(max_list)
+    return matching 
 
 n = int(raw_input().strip())
 ar = map(int, raw_input().strip().split(' '))
