@@ -17,6 +17,9 @@ The two kangaroos jump through the following sequence of locations:
 Input: 0 2 5 3
 Output: No 
 
+x1 = Kangaroo1 start point, v1 = Kangaroo steps per jump
+x2 = Kangaroo2 start point, v2 = Kangaroo steps per jump 
+
 """
 
 #!/bin/python
@@ -25,7 +28,7 @@ import sys
 
 def kangaroo(x1, v1, x2, v2):
     # Complete this function
-     if (v1 > v2) and ((x1 - x2) % (v1 - v2)) == 0:
+    if (v1 > v2) and ((x1 - x2) % (v1 - v2)) == 0:
        return"YES"
     else:
        return"NO"
