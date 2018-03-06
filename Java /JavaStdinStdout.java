@@ -16,7 +16,7 @@ public class JavaStdinStdout {
        
         scan.close();
 
-        // Write your code here.      
+        // Write your code here (all done!).      
         System.out.println("String: " + s);             
         System.out.println("Double: " + d);            
         System.out.println("Int: " + i);
