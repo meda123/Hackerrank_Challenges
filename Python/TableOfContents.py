@@ -1,13 +1,14 @@
 
 # CATEGORIES
 
-# Basic Data Types: WIP week of Feb 18th (3)
-# Strings: WIP week of Feb 25th (16)
-# Sets
-# Math
-# Intertols
-# Collections
-# Date and Time
+#Introduction: Week Feb 25th
+# Basic Data Types: Week of March 4th
+# Strings:
+# Sets:
+# Math:
+# Intertols:
+# Collections: 
+# Date and Time:
 # Errors and Exceptions
 # Classes
 # Built in
