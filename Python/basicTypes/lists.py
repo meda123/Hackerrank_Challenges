@@ -32,6 +32,7 @@ if __name__ == '__main__':
     while N > 0:
         i = raw_input.split()
 
+        #insert usually comes with two digits 
         if i[0] == "insert":
             list.insert(int(i[1])), int(i[2]))
 
