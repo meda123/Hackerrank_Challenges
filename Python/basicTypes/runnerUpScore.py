@@ -20,4 +20,3 @@ if __name__ == '__main__':
     uniqueArr = list(set(arr))
     uniqueArr.sort()
     print(uniqueArr[(len(uniqueArr)-2)])
-    print (uniqueArr[:-1])

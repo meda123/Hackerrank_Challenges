@@ -7,10 +7,13 @@
     # findingPercentages: Reviewed
     # listComprehension: Reviwed
     # lists: Reviewed 3/19
-    # nestedList: Revirwed 3/19 
-    # runnerUpScore
+    # nestedList: Reviewed 3/19
+    # runnerUpScore: Reviewed 3/19
 
-# Strings:
+# Strings: Week of Mar 18
+    #swapCase:
+    
+
 # Sets:
 # Math:
 # Intertols:
