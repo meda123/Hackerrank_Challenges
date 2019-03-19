@@ -6,9 +6,9 @@
 # Basic Data Types: Week of March 4th
     # findingPercentages: Reviewed
     # listComprehension: Reviwed
-    # lists
-    # nestedLists
-    # runnerUpScore 
+    # lists: Reviewed 3/19
+    # nestedList: Revirwed 3/19 
+    # runnerUpScore
 
 # Strings:
 # Sets:
