@@ -11,11 +11,12 @@
     # runnerUpScore: Reviewed 3/19
 
 # Strings: Week of Mar 18
-    #swapCase: Reviwed 3/19
-    #stringSplitAndJoin: Reviewed 3/19
+    # swapCase: Reviwed 3/19
+    # stringSplitAndJoin: Reviewed 3/19
+    # findAString: Review
 
 
-# Sets:
+# Sets: Week of March 18
 # Math:
 # Intertols:
 # Collections:
