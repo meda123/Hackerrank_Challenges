@@ -17,17 +17,9 @@ string. String traversal will take place from left to right, not from right to l
 
 '''
 
-# def count_substring(string, sub_string):
-#     test = raw_input().strip()
-#
-#
-#     print test
-#
-#
-# count_substring("medalis", "mimi")
-# # if __name__ == '__main__':
-#
-
-test = "hello there test"
-dark = test.strip(" ")
-print dark
+def count_substring(string, sub_string):
+    count = 0
+    for i in range(len(string)- len(sub_string) +1):
+        if string[i: i +len(sub_string))
+        count += 1
+    return count

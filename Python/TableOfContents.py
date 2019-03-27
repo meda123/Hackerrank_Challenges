@@ -10,10 +10,10 @@
     # nestedList: Reviewed 3/19
     # runnerUpScore: Reviewed 3/19
 
-# Strings: Week of Mar 18
+# Strings: Week of Mar 18 / Mach 25
     # swapCase: Reviwed 3/19
     # stringSplitAndJoin: Reviewed 3/19
-    # findAString: ??? 
+    # findAString: Review
     #
 
 
