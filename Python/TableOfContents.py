@@ -13,11 +13,12 @@
 # Strings: Week of Mar 18 / Mach 25
     # swapCase: Reviwed 3/19
     # stringSplitAndJoin: Reviewed 3/19
-    # findAString: Review
-    #
+    # findAString: Reviewed 3/26
+    # stringValidator: Reviewed 3/27
+    # textAlignment: 
 
 
-# Sets: Week of March 18
+# Sets:
 # Math:
 # Intertols:
 # Collections:
