@@ -15,7 +15,8 @@
     # stringSplitAndJoin: Reviewed 3/19
     # findAString: Reviewed 3/26
     # stringValidator: Reviewed 3/27
-    # textAlignment: 
+    # textAlignment: NeedsReview
+    # textWrap:
 
 
 # Sets:
