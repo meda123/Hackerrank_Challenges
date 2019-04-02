@@ -10,7 +10,7 @@
     # nestedList: Reviewed 3/19
     # runnerUpScore: Reviewed 3/19
 
-# Strings: Week of Mar 18 / Mach 25
+# Strings: Week of Mar 18 / Mach 25 / April 1
     # swapCase: Reviwed 3/19
     # stringSplitAndJoin: Reviewed 3/19
     # findAString: Reviewed 3/26
@@ -18,6 +18,7 @@
     # textAlignment: NeedsReview
     # textWrap:Reviewed 3/30
     # designedDoorMAt 3/30
+    # stringFormatting 4/1
 
 
 
