@@ -18,7 +18,8 @@
     # textAlignment: NeedsReview
     # textWrap:Reviewed 3/30
     # designedDoorMAt 3/30
-    # stringFormatting 4/1
+    # stringFormatting 4/2
+    # alphabetRangoli 4/3 
 
 
 
