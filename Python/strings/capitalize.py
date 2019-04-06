@@ -7,22 +7,23 @@ Sample output:
 Chris Alan
 
 '''
+#!/bin/python
 
-input = raw_input()
-test = input.split()
-test2 = []
-for i in test:
-    n = i.capitalize()
-    test2.append(n)
+import math
+import os
+import random
+import re
+import sys
 
-print(' '.join(test2))
+# Complete the solve function below.
+def solve(s):
+    full_name = s.split(' ')
+    return ' '.join((word.capitalize() for word in full_name))
 
-#print test2
 
-
-# if __name__ == '__main__':
-#     ptr = open(os.environ['OUTPUT_PATH'], 'w')
-#     s = raw_input()
-#     result = solve(s)
-#     fptr.write(result + '\n')
-#     fptr.close()
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    s = raw_input()
+    result = solve(s)
+    fptr.write(result + '\n')
+    fptr.close()

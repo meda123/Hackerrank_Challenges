@@ -16,10 +16,10 @@
     # findAString: Reviewed 3/26
     # stringValidator: Reviewed 3/27
     # textAlignment: NeedsReview
-    # textWrap:Reviewed 3/30
-    # designedDoorMAt 3/30
-    # stringFormatting 4/2
-    # alphabetRangoli 4/3
+    # textWrap:Reviewed Reviewed 3/30
+    # designedDoorMAt Reviewed 3/30
+    # stringFormatting Reviewed 4/2
+    # alphabetRangoli Reviewed 4/3
 
 
 
