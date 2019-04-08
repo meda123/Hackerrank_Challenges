@@ -1,6 +1,14 @@
 
 # https://www.hackerrank.com/challenges/python-mutations/problem
 
+'''
+INPUT:
+abracadabra
+5 k
 
+OUTPUT:
+abracadabra
+'''
 
-#311982
+test = raw_input()
+print test 
