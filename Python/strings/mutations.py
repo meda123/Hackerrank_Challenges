@@ -10,10 +10,9 @@ OUTPUT:
 abracadabra
 '''
 
-test = raw_input()
-word = raw_input()
-
-print test
-
-"EDIT" 
-new = test.replace(test[4], test)
+s=raw_input()
+in_str_ar=raw_input().strip().split()
+pos=int(in_str_ar[0])
+c=in_str_ar[1]
+final_str=s[:pos]+c+s[pos+1:]
+print final_str
