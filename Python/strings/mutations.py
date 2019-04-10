@@ -11,4 +11,9 @@ abracadabra
 '''
 
 test = raw_input()
-print test 
+word = raw_input()
+
+print test
+
+"EDIT" 
+new = test.replace(test[4], test)
