@@ -28,6 +28,6 @@ def print_rangoli(size):
 
 
 
-if __name__ == '__main__':
-    n = int(raw_input())
-    print_rangoli(n)
+# if __name__ == '__main__':
+#     n = int(raw_input())
+#     print_rangoli(n)
