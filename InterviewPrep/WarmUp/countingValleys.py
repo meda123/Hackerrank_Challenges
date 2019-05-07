@@ -12,14 +12,19 @@ def countingValleys(n,s):
     # s = string given to us
     # valley is represented by two consecutive UU
 
+    level = 0
+    valley = 0
+
+    for i in range(n):
+        if(s[i]=='U'):
+            level = level + 1
+            if (level == 0):
+                valley = valley + 1
+        else
+            level = level + 1 
+
+    return valley
 
 
     #logic: loop through n
     # look for consecutive UU, count that as one valley
-
-    count = 0
-    i = 0
-
-    while i<(n-1):
-        if s[i] == "U"
-        
