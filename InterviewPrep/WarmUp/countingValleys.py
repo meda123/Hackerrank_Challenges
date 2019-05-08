@@ -21,7 +21,7 @@ def countingValleys(n,s):
             if (level == 0):
                 valley = valley + 1
         else
-            level = level + 1 
+            level = level - 1
 
     return valley
 
