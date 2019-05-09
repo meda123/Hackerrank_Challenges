@@ -16,3 +16,16 @@ import sys
 
 #aba
 #aba aba aba a
+
+
+def repeatedString(s, n):
+    
+    noOfa = 0
+    for i in s:
+        if i == 'a':
+            noOfa  += 1
+    res = noOfa  * (n / len(s))
+    for i in s[:n % len(s)]:
+        if i == 'a':
+            res += 1
+    return res
