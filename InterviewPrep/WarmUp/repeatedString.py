@@ -19,7 +19,7 @@ import sys
 
 
 def repeatedString(s, n):
-    
+
     noOfa = 0
     for i in s:
         if i == 'a':
