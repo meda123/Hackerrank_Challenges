@@ -9,6 +9,30 @@ import sys
 
 def jumpingOnClouds(c):
 
+n = len(c)
+
+min = 0
+i = 0
+
+while i < n-1:
+    #Check that next +2 position is still within list AND if moving +2 is of value '0' in the list
+    if i+2 < n and c[i+2] == 0:
+        # If moving 2, move index to +2 in the list
+        i = i + 2
+        #increase minimum steps counter
+        min = min + 1
+    else
+        # Can only move to the next step
+        i = i+ 1
+        #Increase minimum steps counter
+        min = min + 1
+
+#Return counter  
+return min
+
+
+
+
 
 
 # EXPLANATION
