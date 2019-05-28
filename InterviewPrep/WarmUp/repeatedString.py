@@ -20,12 +20,19 @@ import sys
 
 def repeatedString(s, n):
 
-    noOfa = 0
+    # tracks frequency of "a" character in s string
+    ocurrenceOfCharInString = 0
+
     for i in s:
         if i == 'a':
-            noOfa  += 1
-    res = noOfa  * (n / len(s))
+            ocurrenceOfCharInString += 1
+
+    # frequency of "a" if string was "n" length (withOUT residual (3))
+    totalOccurrenceOfChar = ocurrenceOfCharInString * (n / len(s))
+
+    #loop through residual text, for i in s[:1]
     for i in s[:n % len(s)]:
         if i == 'a':
-            res += 1
-    return res
+            totalOccurrenceOfChar += 1
+            
+    return totalOccurrenceOfChar
