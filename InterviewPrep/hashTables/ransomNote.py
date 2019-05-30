@@ -5,7 +5,7 @@
 
 '''
 Magazines:
-Note: 
+Note:
 
 
 '''

@@ -25,6 +25,8 @@
 #InterviewPrep (May)
     #WarmUp sockMerchant: Reviewed 5/4
     #WarmUP countingValleys: Reviewed 5/6
+    #WarmUp jumpingClouds: Reviewed 5/26
+    #WarmUp repeatedString: Reviewed 5/29
 
 
 
