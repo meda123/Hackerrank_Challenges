@@ -18,30 +18,47 @@ import random
 import re
 import sys
 
+####### SOLUTION #1: USING COUNTER #########
+
+from collections import Counter
 
 def checkMagazine(magazine, note):
-    hash_words = {}
+    answer = (Counter(note) - Counter(magazine)) == {}
 
-    for m_word in magazine:
+    if answer:
+        print "Yes"
+        return
+    else:
+        print "No"
+        return
 
-        if hash_words.get(m_word) != None:
-            if (hash_words[m_word] > 0):
-                hash_words[m_word] += 1
+####### SOLUTION #2: MANUAL METHOD #########
+
+def ransom_note(magazine, note):
+    magazine_dictionary = {}
+
+    # Create a dictionary with words on the magazine and put the number
+    # of ocurrences in the value
+
+    for m in magazine:
+        print m
+        if magazine_dictionary.get(m) != None:
+            if(magazine_dictionary[m] > 0):
+                magazine_dictionary[m] += 1
         else:
-            hash_words[m_word] = 1
+            magazine_dictionary[m] = 1
 
-    for r_word in note:
-        if hash_words.get(r_word) is None or hash_words[r_word] == 0:
+    # Loop through each word in the ransom note and see if it is present in the
+    # magazine_dictionary, if so remove word from the dictionary and continue
+    # the loop. Otherwise, exit the function because word was not found
+
+    for n in note:
+        if magazine_dictionary.get(n) is None or magazine_dictionary[n] == 0:
             print "No"
             return
         else:
-            hash_words[r_word] -= 1
+            print magazine_dictionary[n]
+            magazine_dictionary[n] -= 1
 
-    print "Yes"
-    return
-    
-test = checkMagazine("hello meda is", "zips")
-print test
-
-
-#Pseudocode
+        print "Yes"
+        return
