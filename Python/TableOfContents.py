@@ -29,7 +29,8 @@
     #WarmUp repeatedString: Reviewed 5/29
 
 #InterviewPrep (June)
-    #WarmUp
+    #HashTables ransomNote: Reviewed 6/2
+    #HashTables twoStrings: Reviewed 6/2
 
 
 
